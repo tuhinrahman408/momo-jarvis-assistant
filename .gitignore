@@ -1,0 +1,8 @@
+.env
+browser_profile/
+__pycache__/
+.pytest_cache/
+contacts.json
+apps.json
+venv/
+*.log

@@ -1,0 +1,37 @@
+# Core
+google-genai>=1.0.0
+playwright>=1.45.0
+python-dotenv>=1.0.0
+tzdata>=2024.1
+pytest>=8.0.0
+
+# Voice
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.14          # microphone; on Windows: pip install pipwin && pipwin install pyaudio
+gTTS>=2.5.0
+
+# Calling system (speaking into a call)
+sounddevice>=0.4.6
+miniaudio>=1.59
+numpy>=1.26
+
+# Computer control
+psutil>=5.9.0
+pyautogui>=0.9.54
+pyperclip>=1.8.2
+Pillow>=10.0.0
+send2trash>=1.8.2
+screen-brightness-control>=0.23.0
+
+# Office work
+python-docx>=1.1.0
+openpyxl>=3.1.0
+python-pptx>=0.6.23
+pypdf>=4.0.0
+
+# Window and spoken replies
+PySide6>=6.6.0
+edge-tts>=6.1.0
+
+# Optional: calls through WhatsApp Desktop (Windows)
+pywinauto>=0.6.8
